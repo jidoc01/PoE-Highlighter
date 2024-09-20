@@ -1,6 +1,9 @@
 {
   "name": "PoE-Highlighter",
+  "displayName": "PoE Highlighter",
   "description": "Syntax highlighter for PoE (Proof of Exploit).",
+  "publisher": "jidoc01",
+  "icon": "images/b2r2-128x128.png",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.93.0"
