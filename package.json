@@ -1,0 +1,28 @@
+{
+  "name": "PoE-Highlighter",
+  "description": "Syntax highlighter for PoE (Proof of Exploit).",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "poe",
+      "aliases": ["PoE", "poe"],
+      "extensions": [".poe"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "poe",
+      "scopeName": "source.poe",
+      "path": "./syntaxes/poe.tmLanguage.json"
+    }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jidoc01/PoE-Highlighter"
+  }
+}
