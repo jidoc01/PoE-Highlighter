@@ -4,6 +4,10 @@
 	"scopeName": "source.poe",
 	"patterns": [
 		{
+			"name": "comment.line.double-slash",
+			"match": "//.*$"
+		},
+		{
 			"name": "string.quoted.double.poe",
 			"begin": "\"",
 			"end": "\"",
